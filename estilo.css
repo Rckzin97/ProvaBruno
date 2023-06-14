@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0; 
+    outline: 0;
+    box-sizing:border-box;
+}
+    
+    html,body{
+        font-size: 62.5%;
+        font-family: 'Courier New', Courier, monospace;
+        text-rendering: optimizeLegibility;
+        height: 100%;
+}
+
+
+#tudo{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.part1{
+    width: 50%;
+    height: 100%;
+    background-color: #457b9d;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.part2{
+    width: 50%;
+    height: 100%;
+    background-color: #a8dadc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+h1{
+    font-size: 5rem;
+
+}
+
+input{
+    margin:0.5rem;
+    height: 4rem;
+    border-radius: 2rem;
+
+}
+
+button{
+    height: 3rem;
+    width: 10rem;
+   border-radius: 2rem;
+    margin: 1rem;
+}
+
+ul{
+    font-size: 2rem;
+    max-width: 80rem;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
